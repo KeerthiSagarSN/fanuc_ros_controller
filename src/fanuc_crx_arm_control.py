@@ -127,24 +127,12 @@ class Geomagic2FANUC():
 
      
         self.desired_pose = Pose()
-
-        self.hot_wire_toggle = False
-
         self.no_of_joints = kdl_chain.getNrOfJoints()
 
         self.q_in = PyKDL.JntArray(kdl_chain.getNrOfJoints())
         self.q_in_numpy = zeros(6)
 
 
-
-
-        self.cut_xz_active = False
-
-        self.cut_xy_active = False
-        
-
-
-        self.EnterFlag = True
 
 
         ## This is bad cant publish to the same topic being subscribed too---- Only for simulation
@@ -248,11 +236,9 @@ class Geomagic2FANUC():
 
         self.qdot_max = array(self.qdot_limit)
         self.qdot_min = -1*self.qdot_max
-        self.fun_iter = Int16()
-        self.fun_iter.data = 0
-        self.start_optimization_bool = False
 
-        self.msg_status_ik = String()
+
+
 
         print('self.qdot_max', self.qdot_max)
         print('self.qdot_min', self.qdot_min)
