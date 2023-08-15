@@ -13,7 +13,6 @@ from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 from scipy.spatial import distance as dist_scipy
 from numpy import sum
 from tf.transformations import quaternion_matrix
-#from pytransform3d.urdf import UrdfTransformManager
 from ipaddress import collapse_addresses
 from itertools import chain
 import queue
@@ -46,11 +45,9 @@ from tf2_ros import TransformBroadcaster
 
 
 
-# Polygon plot for ROS - Geometry message
-from jsk_recognition_msgs.msg import PolygonArray, SegmentArray
+# Plot for ROS - Geometry message
+
 from geometry_msgs.msg import Polygon, PolygonStamped, Point32
-
-
 
 import PyKDL
 
