@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/imr/catkin_telebot_ws/devel/lib/python3/dist-packages",
+        "/home/imr/Unity-Robotics-Hub/tutorials/pick_and_place/ROS/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/imr/catkin_telebot_ws/devel/lib/python3/dist-packages",
+        "/home/imr/Unity-Robotics-Hub/tutorials/pick_and_place/ROS/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/imr/catkin_telebot_ws/devel/include/**",
+        "/home/imr/Unity-Robotics-Hub/tutorials/pick_and_place/ROS/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/imr/catkin_telebot_ws/src/niryo_one_ros/dynamixel_sdk/include/**",
+        "/home/imr/catkin_telebot_ws/src/kdl_parser-noetic-devel/kdl_parser/include/**",
+        "/home/imr/catkin_telebot_ws/src/kuka_experimental/kuka_eki_hw_interface/include/**",
+        "/home/imr/catkin_telebot_ws/src/kuka_experimental/kuka_rsi_hw_interface/include/**",
+        "/home/imr/catkin_telebot_ws/src/niryo_one_ros/mcp_can_rpi/include/**",
+        "/home/imr/catkin_telebot_ws/src/netft_utils/include/**",
+        "/home/imr/catkin_telebot_ws/src/niryo_one_ros/niryo_one_debug/include/**",
+        "/home/imr/catkin_telebot_ws/src/niryo_one_ros/niryo_one_driver/include/**",
+        "/home/imr/catkin_telebot_ws/src/tf_ros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
