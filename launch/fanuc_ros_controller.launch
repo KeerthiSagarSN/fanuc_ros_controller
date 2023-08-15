@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+<!--<node name="geomagic2kuka" pkg="kr4_ros_controller" type="geomagic2kukakr4_test.py" output="screen">--> 
+<node name="geomagic2fanuc" pkg="fanuc_ros_controller" type="fanuc_crx_arm_control.py" output="screen">
+</node>
+</launch>
