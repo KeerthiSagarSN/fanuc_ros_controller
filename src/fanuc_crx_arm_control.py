@@ -221,10 +221,6 @@ class Geomagic2FANUC():
 
         self.baseFrame = PyKDL.Frame.Identity()
 
-        self.cam_rot = PyKDL.Rotation()
-        self.cam_rot = self.cam_rot.RPY(0,0,0)
-
-
  
 
 
