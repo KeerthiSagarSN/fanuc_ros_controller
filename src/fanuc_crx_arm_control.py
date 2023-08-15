@@ -153,8 +153,6 @@ class Geomagic2FANUC():
         
         
 
-        self.button_fanuc_subscriber = rospy.Subscriber(
-            "buttons_fanuc", Joy, self.button_fanuc_update_callback, queue_size=1)
 
         # self.meca_pose_publisher = rospy.Publisher("MecademicRobot_pose", Pose, queue_size=1)
         self.fanuc_joints_publisher = rospy.Publisher(
